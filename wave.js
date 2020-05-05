@@ -52,10 +52,6 @@ export class Wave {
 
         ctx.moveTo(prevX,prevY);
 
-
-        //처음이랑 마지막 점은 고정 시키고 중간에 있는 점들만 아래위로 움직이도록
-        //인덱스가 1,2,3,4 인 점들만 아래 위로 움직임
-
         for (let i = 0; i < this.totalPoints; i++) {
 
             if (i < this.totalPoints ) {
